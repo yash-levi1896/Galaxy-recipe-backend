@@ -160,7 +160,7 @@ STATIC_ROOT = BASE_DIR / "staticfiles" # new
 
 CORS_ALLOW_ALL_ORIGINS = False
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:8080',  
+    'https://recipefinder-yash-levi1896.vercel.app',  
 ]
 
 SWAGGER_SETTINGS = { "DEFAULT_GENERATOR_CLASS": "rest_framework.schemas.generators.BaseSchemaGenerator", }

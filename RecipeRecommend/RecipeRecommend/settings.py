@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-y#ib9@a&jtcz&z(=8-jtc72s%(t2fp%50f331)sggjw*s-mwdj
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['recipefinderone.onrender.com']
 
 from dotenv import load_dotenv
 import os

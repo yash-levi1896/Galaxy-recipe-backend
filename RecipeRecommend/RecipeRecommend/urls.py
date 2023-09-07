@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path , include
 from rest_framework.routers import DefaultRouter
-# from recipe.views import register_user
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns # new
 
 router = DefaultRouter()
 # router.register(r'mymodel', register_user)
@@ -28,3 +28,5 @@ urlpatterns = [
      path('api/',include("recipe.urls")), 
 
 ]
+
+urlpatterns += staticfiles_urlpatterns() # new

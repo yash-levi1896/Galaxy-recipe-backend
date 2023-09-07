@@ -1,0 +1,612 @@
+[
+    {
+        "id": 1,
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/vegan_pancakes-4595444.jpg?quality=90&webp=true&resize=300,272",
+        "title": "Vegan pancake",
+        "description": "Make this great base for vegan pancakes: use your favourite plant-based milk, and add vegan choc chips, blueberries, or anything else you fancy",
+        "ingredients": [
+            "300g self-raising flour",
+            "1 tsp baking powder",
+            "1 tbsp sugar (any kind)",
+            "1 tbsp vanilla extract",
+            "400ml plant-based milk (such as oat, almond or soya)",
+            "1 tbsp vegetable oil for cooking"
+        ],
+        "instructions": "",
+        "cooking_time": 25,
+        "servings": 4,
+        "diet_preference": "vegan"
+    },
+    {
+        "id": 2,
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2023/05/Spinach-Omelette440x400-1c259f3.jpg?quality=90&webp=true&resize=300,272",
+        "title": "Vegan spinach omelette",
+        "description": "Try an omelette made with chickpea flour – it's high in protein and gluten-free. The quantities here are for one, but the recipe is easily doubled",
+        "ingredients": [
+            "30g gram (chickpea) flour",
+            "¼ tsp dried oregano",
+            "1 tbsp nutritional yeast",
+            "2 tsp rapeseed oil",
+            "80g baby spinach"
+        ],
+        "instructions": "",
+        "cooking_time": 5,
+        "servings": 1,
+        "diet_preference": "vegan"
+    },
+    {
+        "id": 3,
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2022/09/CreamySpinachChicken-e6b2815.jpg?quality=90&webp=true&resize=300,272",
+        "title": "Creamy spinach chicken",
+        "description": "Enjoy our creamy spinach chicken with plenty of sauce and rice or potatoes on the side. Serving four, it's an ideal midweek dinner for a family",
+        "ingredients": [
+            "30g unsalted butter",
+            "240g baby spinach",
+            "4 chicken breasts, skin removed, sliced crosswise into strips",
+            "4 garlic cloves, finely chopped or grated",
+            "200ml double cream",
+            "40g Parmigiano Reggiano, finely grated",
+            "cooked rice or potatoes, to serve (optional)"
+        ],
+        "instructions": "",
+        "cooking_time": 40,
+        "servings": 4,
+        "diet_preference": "Non-Veg"
+    },
+    {
+        "id": 4,
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/burrito-bf165ae.jpg?quality=90&webp=true&resize=300,272",
+        "title": "Vegan burritos",
+        "description": "Pack these vegan wraps with vegetables, rice and chipotle black beans to make a delicious and nutritious lunch.",
+        "ingredients": [
+            "4 large or 8 small tortilla wraps",
+            "2 large handfuls spinach leaves, shredded",
+            "1 avocado, thinly sliced (optional)",
+            "hot sauce, to serve"
+        ],
+        "instructions": "",
+        "cooking_time": 40,
+        "servings": 4,
+        "diet_preference": "vegan"
+    },
+    {
+        "id": 5,
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1284594_8-5684595.jpg?quality=90&webp=true&resize=300,272",
+        "title": "vegan biriyani",
+        "description": "A meat and dairy-free, Indian-inspired basmati rice dish with cauliflower, French beans, peas, potatoes, homemade curry paste and carrot salad",
+        "ingredients": [
+            "400g basmati rice",
+            "pinch saffron threads (optional)",
+            "2 tbsp vegetable oil",
+            "1 cauliflower, cut into florets",
+            "2 potatoes, cut into chunks",
+            "100g red lentil",
+            "100g French bean, trimmed and cut in half",
+            "handful curry leaves",
+            "2 handfuls frozen peas",
+            "small bunch coriander",
+            "50g roasted cashew nuts, roughly chopped",
+            "poppadums and naan bread, to serve"
+        ],
+        "instructions": "",
+        "cooking_time": 70,
+        "servings": 8,
+        "diet_preference": "vegan"
+    },
+    {
+        "id": 6,
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1010491_10-0d165c5.jpg?quality=90&webp=true&resize=300,272",
+        "title": "vegan burgers",
+        "description": "Make vegan burgers with polenta and spice with cumin, chilli and coriander. Cook in the oven or on the barbecue and serve with a plant-based salsa",
+        "ingredients": [
+            "6 large sweet potatoes (about 1.5kg/3lb 5oz)",
+            "2 tsp oil, plus extra for the trays",
+            "2 red onions, finely chopped",
+            "2 red chillies, finely chopped (deseeded if you like)",
+            "1 tbsp ground cumin",
+            "1 tbsp ground coriander",
+            "340g can sweetcorn, drained",
+            "small bunch coriander, chopped",
+            "200g polenta",
+            "buns, salsa, onion and salad leaves, to serve"
+        ],
+        "instructions": "",
+        "cooking_time": 100,
+        "servings": 3,
+        "diet_preference": "vegan"
+    },
+    {
+        "id": 7,
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/10/MushroomSweet-Potato-Wellington-83ad334.jpg?quality=90&webp=true&resize=300,272",
+        "title": "Vegan wellington",
+        "description": "Wow family and friends with this mushroom and sweet potato wellington with cranberries. It makes an impressive centrepiece dish in a vegetarian or vegan Christmas spread.",
+        "ingredients": [
+            "90g dried porcini mushrooms",
+            "2 tbsp olive oil",
+            "1 large onion, finely chopped",
+            "250g chestnut mushrooms, finely chopped",
+            "2 garlic cloves, crushed",
+            "500g sweet potatoes (about 2 large), peeled and cut into 2cm chunks",
+            "1 tbsp finely chopped rosemary",
+            "1 tbsp finely chopped sage, plus 4 whole leaves",
+            "100g soft white breadcrumbs",
+            "2 tbsp pomegranate molasses",
+            "40g chopped walnuts or pecans",
+            "40g dried cranberries"
+        ],
+        "instructions": "",
+        "cooking_time": 120,
+        "servings": 6,
+        "diet_preference": "vegan"
+    },
+    {
+        "id": 8,
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2022/07/Alu-tamatar-masala-7257e00.jpg?quality=90&webp=true&resize=300,272",
+        "title": "Alu tamatar masala",
+        "description": "Try this vegan dish of potatoes cooked in tomato masala. It's simple to make, but with tomatoes cooked in spices and curry leaves, it's packed with flavour",
+        "ingredients": [
+            "6 medium potatoes (about 1kg), roughly chopped",
+            "2 tbsp sunflower oil",
+            "1 tsp black mustard seeds",
+            "6-8 curry leaves",
+            "1 green chilli, thinly sliced",
+            "2 garlic cloves, finely chopped",
+            "2.5cm piece of ginger, peeled and finely chopped",
+            "5 medium tomatoes, finely chopped",
+            "1 tsp garam masala",
+            "½ tsp chilli powder",
+            "½ tsp ground turmeric",
+            "handful of coriander leaves"
+        ],
+        "instructions": "",
+        "cooking_time": 40,
+        "servings": 4,
+        "diet_preference": "vegan"
+    },
+    {
+        "id": 9,
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/10/MushroomSweet-Potato-Wellington-83ad334.jpg?quality=90&webp=true&resize=300,272",
+        "title": "Vegan wellington",
+        "description": "Wow family and friends with this mushroom and sweet potato wellington with cranberries. It makes an impressive centrepiece dish in a vegetarian or vegan Christmas spread.",
+        "ingredients": [
+            "90g dried porcini mushrooms",
+            "2 tbsp olive oil",
+            "1 large onion, finely chopped",
+            "250g chestnut mushrooms, finely chopped",
+            "2 garlic cloves, crushed",
+            "500g sweet potatoes (about 2 large), peeled and cut into 2cm chunks",
+            "1 tbsp finely chopped rosemary",
+            "1 tbsp finely chopped sage, plus 4 whole leaves",
+            "100g soft white breadcrumbs",
+            "2 tbsp pomegranate molasses",
+            "40g chopped walnuts or pecans",
+            "40g dried cranberries"
+        ],
+        "instructions": "",
+        "cooking_time": 120,
+        "servings": 6,
+        "diet_preference": "vegan"
+    },
+    {
+        "id": 10,
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/vegan-spring-rolls-4911a55.jpg?quality=90&webp=true&resize=300,272",
+        "title": "Vegan rainbow spring rolls",
+        "description": "Try these colourful vegan spring rolls as canapés for a party, vibrant with fresh veg and juicy mango. Serve with a sweet chilli dipping sauce",
+        "ingredients": [
+            "12 spring roll wrappers (we used Blue Dragon)",
+            "½ small pack mint, leaves picked",
+            "½ small pack Thai basil, leaves picked (optional)",
+            "4 spring onions, cut in half then cut lengthways into strips",
+            "1 courgette, peeled lengthways, halved and cut into thin strips (or use julienne peeler)",
+            "1 large carrot, halved and cut into thin strips (or use julienne peeler)",
+            "½ mango, cut into strips",
+            "1 red chilli, deseeded and cut into thin strips",
+            "50g salted peanuts, chopped (optional)",
+            "sweet chilli sauce, for dipping"
+        ],
+        "instructions": "",
+        "cooking_time": 30,
+        "servings": 8,
+        "diet_preference": "vegan"
+    },
+    {
+        "id": 11,
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2022/02/vegetarian-lasagne-5ee6162.jpg?quality=90&webp=true&resize=300,272",
+        "title": "Vegetarian lasagne",
+        "description": "Make our easy vegetarian lasagne using just a handful of ingredients. You can use ready-made tomato sauce and white sauce, or batch cook the sauces and freeze them.",
+        "ingredients": [
+            "3 red peppers, cut into large chunks",
+            "2 aubergines, cut into ½ cm thick slices",
+            "8 tbsp olive oil, plus extra for the dish",
+            "300g lasagne sheets",
+            "125g mozzarella",
+            "handful cherry tomatoes, halved",
+            "1 tbsp olive oil",
+            "2 onions, finely chopped",
+            "2 garlic cloves, sliced",
+            "1 carrot, roughly chopped",
+            "2 tbsp tomato purée",
+            "200ml white wine",
+            "3 x 400g cans chopped tomatoes",
+            "1 bunch of basil, leaves picked"
+        ],
+        "instructions": "",
+        "cooking_time": 95,
+        "servings": 6,
+        "diet_preference": "vegetarian"
+    },
+    {
+        "id": 12,
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2022/07/Vegetarian-ramen-0c0831e.jpg?quality=90&webp=true&resize=300,272",
+        "title": "Vegetarian ramen",
+        "description": "Rustle up this warming veggie ramen in just 15 minutes. Think of it as healthy fast food – it's low-fat, low-calorie and low-cost as well",
+        "ingredients": [
+            "80g pack instant noodles (look for an Asian brand with a flavour like sesame)",
+            "2 spring onions, finely chopped",
+            "½ head pak choi",
+            "1 egg",
+            "1 tsp sesame seeds",
+            "chilli sauce, to serve"
+        ],
+        "instructions": "",
+        "cooking_time": 15,
+        "servings": 1,
+        "diet_preference": "vegetarian"
+    },
+    {
+        "id": 13,
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-326597_11-b7385b9.jpg?quality=90&webp=true&resize=300,272",
+        "title": "Falafel burgers",
+        "description": "A healthy burger that's filling too. These are great for anyone after a satisfying bite low in calories.",
+        "ingredients": [
+            "400g can chickpeas, rinsed and drained",
+            "1 small red onion, roughly chopped",
+            "1 garlic clove, chopped",
+            "handful of flat-leaf parsley or curly parsley",
+            "1 tsp ground cumin",
+            "1 tsp ground coriander",
+            "½ tsp harissa paste or chilli powder",
+            "2 tbsp plain flour",
+            "2 tbsp sunflower oil",
+            "toasted pitta bread, to serve",
+            "200g tub tomato salsa, to serve",
+            "green salad, to serve"
+        ],
+        "instructions": "",
+        "cooking_time": 16,
+        "servings": 4,
+        "diet_preference": "vegetarian"
+    },
+    {
+        "id": 14,
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/quesadilla-0c9b627.jpg?quality=90&webp=true&resize=300,272",
+        "title": "Vegetarian quesadillas",
+        "description": "Have a pack of flour tortilla wraps knocking about in your storecupboard? Sandwich them with a cheesy bean filling and griddle to make these meat-free quesadillas",
+        "ingredients": [
+            "2 x 400g cans mixed bean salad",
+            "3 tbsp chipotle sauce",
+            "small pack coriander, chopped",
+            "140g red leicester cheese, grated",
+            "pack 8 flour tortillas"
+        ],
+        "instructions": "",
+        "cooking_time": 17,
+        "servings": 4,
+        "diet_preference": "vegetarian"
+    },
+    {
+        "id": 15,
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-326597_11-b7385b9.jpg?quality=90&webp=true&resize=300,272",
+        "title": "Falafel burgers",
+        "description": "A healthy burger that's filling too. These are great for anyone after a satisfying bite low in calories.",
+        "ingredients": [
+            "400g can chickpeas, rinsed and drained",
+            "1 small red onion, roughly chopped",
+            "1 garlic clove, chopped",
+            "handful of flat-leaf parsley or curly parsley",
+            "1 tsp ground cumin",
+            "1 tsp ground coriander",
+            "½ tsp harissa paste or chilli powder",
+            "2 tbsp plain flour",
+            "2 tbsp sunflower oil",
+            "toasted pitta bread, to serve",
+            "200g tub tomato salsa, to serve",
+            "green salad, to serve"
+        ],
+        "instructions": "",
+        "cooking_time": 16,
+        "servings": 4,
+        "diet_preference": "vegetarian"
+    },
+    {
+        "id": 16,
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-338635_12-cba1c91.jpg?quality=90&webp=true&resize=300,272",
+        "title": "spicy rice",
+        "description": "This simple vegetarian rice dish is a useful weeknight backup – it needs practically no preparation and uses storecupboard ingredients to make a nourishing, filling meal",
+        "ingredients": [
+            "1 tbsp sunflower oil",
+            "2 garlic cloves, crushed",
+            "2 tbsp medium curry paste (Madras is a good one to use)",
+            "250g basmati rice, rinsed",
+            "450ml vegetable stock",
+            "400g can chickpeas, drained and rinsed",
+            "handful of raisins",
+            "175g frozen leaf spinach, thawed",
+            "handful of cashew nuts",
+            "natural yogurt to serve (optional)"
+        ],
+        "instructions": "",
+        "cooking_time": 20,
+        "servings": 4,
+        "diet_preference": "vegetarian"
+    },
+    {
+        "id": 17,
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-3292_12-57d39a9.jpg?quality=90&webp=true&resize=300,272",
+        "title": "Vegetarian club",
+        "description": "Give the traditional layered sandwich a meat-free twist by combining hummus with healthy tomato, watercress and carrot",
+        "ingredients": [
+            "3 slices granary bread",
+            "1 large handful watercress",
+            "1 carrot, peeled and coarsely grated",
+            "small squeeze lemon juice",
+            "1 tbsp olive oil",
+            "2 dessertspoons reduced-fat hummus",
+            "2 tomatoes, thickly sliced"
+        ],
+        "instructions": "",
+        "cooking_time": 10,
+        "servings": 1,
+        "diet_preference": "vegetarian"
+    },
+    {
+        "id": 18,
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/04/Pineapple-Smoothie-e838246.jpg?quality=90&webp=true&resize=300,272",
+        "title": "Pineapple smoothie",
+        "description": "Blend fresh pineapple and banana with lime juice to make this tangy pineapple smoothie. It's great for breakfast and kids will love it too",
+        "ingredients": [
+            "150g pineapple, trimmed, peeled and chopped",
+            "1 small banana, peeled and sliced",
+            "1 lime, juiced",
+            "ice (optional)"
+        ],
+        "instructions": "",
+        "cooking_time": 10,
+        "servings": 1,
+        "diet_preference": "vegetarian"
+    },
+    {
+        "id": 19,
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-931476_11-92a0015.jpg?quality=90&webp=true&resize=300,272",
+        "title": "Saag aloo",
+        "description": "Saag aloo is a classic Indian-style side dish featuring potatoes fried in spices and spinach. Rustle up this fragrant vegetarian recipe in just 25 minutes.",
+        "ingredients": [
+            "2 tbsp sunflower oil",
+            "1 onion, finely chopped",
+            "2 garlic cloves, sliced",
+            "1 tbsp chopped ginger",
+            "500g potato, cut into 2cm (¾in) chunks",
+            "1 large red chilli, halved, deseeded and finely sliced",
+            "½ tsp each black mustard seeds, cumin seeds, turmeric",
+            "250g spinach leaves"
+        ],
+        "instructions": "",
+        "cooking_time": 25,
+        "servings": 4,
+        "diet_preference": "vegetarian"
+    },
+    {
+        "id": 20,
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1074500_11-ee0d41a.jpg?quality=90&webp=true&resize=300,272",
+        "title": "Spiced carrot & lentil soup",
+        "description": "A delicious, spicy blend packed full of iron and low in fat to boot. It's ready in under half an hour, or can be made in a slow cooker",
+        "ingredients": [
+            "2 tsp cumin seeds",
+            "pinch chilli flakes",
+            "2 tbsp olive oil",
+            "600g carrots, washed and coarsely grated (no need to peel)",
+            "140g split red lentils",
+            "1l hot vegetable stock (from a cube is fine)",
+            "125ml milk (to make it dairy-free, see 'try' below)",
+            "plain yogurt and naan bread, to serve"
+        ],
+        "instructions": "",
+        "cooking_time": 25,
+        "servings": 4,
+        "diet_preference": "vegetarian"
+    },
+    {
+        "id": 21,
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/crunchy-garlic-chicken-60b790a.jpg?quality=90&webp=true&resize=300,272",
+        "title": "Crunchy garlic chicken",
+        "description": "Think chicken breasts are a bit boring? Try this garlic chicken that has the crunch and flavour of chicken kiev, but with a fraction of the prep.",
+        "ingredients": [
+            "4tbsp (about 40g) grated parmesan",
+            "5tbsp mayonnaise",
+            "1tbsp Garlic & herb flavour seasoning",
+            "50g panko breadcrumbs",
+            "2 boneless, skinless chicken breasts",
+            "lemon wedges, snipped chives and roasted potatoes and tomatoes to serve (optional)"
+        ],
+        "instructions": "",
+        "cooking_time": 40,
+        "servings": 2,
+        "diet_preference": "Non-veg"
+    },
+    {
+        "id": 22,
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chicken_pasta_bake-06fe2d6.jpg?quality=90&webp=true&resize=300,272",
+        "title": "Chicken pasta bake",
+        "description": "Enjoy this gooey cheese and chicken pasta bake for the ultimate weekday family dinner. Serve straight from the dish with a dressed green salad.",
+        "ingredients": [
+            "4 tbsp olive oil",
+            "1 onion, finely chopped",
+            "2 garlic cloves, crushed",
+            "¼ tsp chilli flakes",
+            "2 x 400g cans chopped tomatoes",
+            "1 tsp caster sugar",
+            "6 tbsp mascarpone",
+            "4 skinless chicken breasts, sliced into strips",
+            "300g penne",
+            "70g mature cheddar, grated",
+            "50g grated mozzarella",
+            "½ small bunch of parsley, finely chopped"
+        ],
+        "instructions": "",
+        "cooking_time": 75,
+        "servings": 6,
+        "diet_preference": "Non-veg"
+    },
+    {
+        "id": 23,
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/fish-mappas-a84eed1.jpg?quality=90&webp=true&resize=300,272",
+        "title": "Fish mappas",
+        "description": "A coconut fish curry, popular in the southern Indian state of Kerala - use pollock or any other sustainably sourced white fish fillets",
+        "ingredients": [
+            "300g basmati rice",
+            "1 tbsp sunflower or vegetable oil",
+            "2 large onions, sliced",
+            "2 garlic cloves, chopped",
+            "450g tomatoes, cut into chunks",
+            "3 tbsp tikka curry paste",
+            "400g can coconut milk",
+            "4 skinless, boneless pollock fillets (about 150g/51/2oz each), or other sustainable white fish, cut into 4cm/11/2in chunks",
+            "½ small pack coriander, roughly chopped"
+        ],
+        "instructions": "",
+        "cooking_time": 35,
+        "servings": 4,
+        "diet_preference": "Non-veg"
+    },
+    {
+        "id": 24,
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chicken_pasta_bake-06fe2d6.jpg?quality=90&webp=true&resize=300,272",
+        "title": "Simple fish stew",
+        "description": "This quick and healthy one-pot is packed with white fish fillets, king prawns, a rich tomato sauce and enough veg to count for 3 of your 5-a-day",
+        "ingredients": [
+            "4 tbsp olive oil",
+            "1 onion, finely chopped",
+            "2 garlic cloves, crushed",
+            "¼ tsp chilli flakes",
+            "2 x 400g cans chopped tomatoes",
+            "1 tsp caster sugar",
+            "6 tbsp mascarpone",
+            "4 skinless chicken breasts, sliced into strips",
+            "300g penne",
+            "70g mature cheddar, grated",
+            "50g grated mozzarella",
+            "½ small bunch of parsley, finely chopped"
+        ],
+        "instructions": "",
+        "cooking_time": 75,
+        "servings": 6,
+        "diet_preference": "Non-veg"
+    },
+    {
+        "id": 25,
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-800500_11-6e543cc.jpg?quality=90&webp=true&resize=300,272",
+        "title": "Easy paella",
+        "description": "Whip up this easy version of the traditional Spanish seafood dish using storecupboard staples. Add extras to paella rice such as chorizo and peas if you like",
+        "ingredients": [
+            "1 tbsp olive oil",
+            "1 onion, chopped",
+            "1 tsp each hot smoked paprika and dried thyme",
+            "300g paella or risotto rice",
+            "3 tbsp dry sherry or white wine (optional)",
+            "400g can chopped tomatoes with garlic",
+            "900ml chicken stock",
+            "400g frozen seafood mix, defrosted",
+            "1 lemon, ½ juiced, ½ cut into wedges",
+            "handful of flat-leaf parsley, roughly chopped"
+        ],
+        "instructions": "",
+        "cooking_time": 40,
+        "servings": 4,
+        "diet_preference": "Non-veg"
+    },
+    {
+        "id": 26,
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/easy-turkey-paella-50f7f4e.jpg?quality=90&webp=true&resize=300,272",
+        "title": "Turkey paella",
+        "description": "This quick and healthy one-pot is packed with white fish fillets, king prawns, a rich tomato sauce and enough veg to count for 3 of your 5-a-day",
+        "ingredients": [
+            "205g jar of paella paste",
+            "300g paella rice",
+            "300g pack stir-fry vegetables (without beansprouts)",
+            "130g pack roast turkey slices"
+        ],
+        "instructions": "",
+        "cooking_time": 24,
+        "servings": 4,
+        "diet_preference": "Non-veg"
+    },
+    {
+        "id": 27,
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/gluten-free-bread-713ab27.jpg?quality=90&webp=true&resize=300,272",
+        "title": "Gluten-free bread",
+        "description": "A simple loaf of bread for those following a gluten-free diet. Bake this wheat-free bread and use it to make sandwiches or toast, or simply slather it in butter.",
+        "ingredients": [
+            "140g gluten-free plain flour",
+            "50g cornflour",
+            "3 eggs",
+            "175ml semi-skimmed milk",
+            "sunflower oil, for drizzling"
+        ],
+        "instructions": "",
+        "cooking_time": 60,
+        "servings": 4,
+        "diet_preference": "Gluteen-free"
+    },
+    {
+        "id": 28,
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/easy-turkey-paella-50f7f4e.jpg?quality=90&webp=true&resize=300,272",
+        "title": "Gluten-free Yorkshire puddings",
+        "description": "The perfect vehicle for gravy and roasted goodies: the Yorkshire pudding - this version is gluten-free but never fear, you still get that characteristic puff and golden colour",
+        "ingredients": [
+            "205g jar of paella paste",
+            "300g paella rice",
+            "300g pack stir-fry vegetables (without beansprouts)",
+            "130g pack roast turkey slices"
+        ],
+        "instructions": "",
+        "cooking_time": 30,
+        "servings": 8,
+        "diet_preference": "Gluteen-free"
+    },
+    {
+        "id": 29,
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/amaretti-muffins-f5d5e33.jpg?quality=90&webp=true&resize=300,272",
+        "title": "Gluten-free muffins",
+        "description": "These simple gluten-free muffins are full to bursting with crunchy amaretti biscuits and creamy Greek yogurt for a light-textured sponge. Perfect with a cuppa.",
+        "ingredients": [
+            "110ml vegetable oil",
+            "110g golden caster sugar",
+            "2 eggs",
+            "2 tbsp Greek yogurt, plus extra to serve",
+            "25ml espresso or strong coffee",
+            "110g ground almonds",
+            "60g rice flour",
+            "1 tsp gluten-free baking powder",
+            "4 soft, gluten-free amaretti biscuits, broken up",
+            "50g flaked almonds"
+        ],
+        "instructions": "",
+        "cooking_time": 35,
+        "servings": 6,
+        "diet_preference": "Gluteen-free"
+    },
+    {
+        "id": 30,
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/easy-turkey-paella-50f7f4e.jpg?quality=90&webp=true&resize=300,272",
+        "title": "Gluten-free flatbreads",
+        "description": "Rustle up some gluten-free flatbreads to accompany a meze feast. You can add a little cumin or chopped coriander to the batter, if you like.",
+        "ingredients": [
+            "250g gram (chickpea) flour",
+            "½ tsp rapeseed oil"
+        ],
+        "instructions": "",
+        "cooking_time": 30,
+        "servings": 8,
+        "diet_preference": "Gluteen-free"
+    }
+]

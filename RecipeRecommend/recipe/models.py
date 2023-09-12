@@ -38,3 +38,12 @@ class Rating(models.Model):
 
     def __str__(self):
         return f"Rating for {self.recipe} by {self.user}"
+    
+
+class Shopping(models.Model):
+    recipe = models.ForeignKey(Recipe, on_delete=models.CASCADE)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    shopping_list = models.JSONField()  # This field stores a list of dictionaries
+
+    def __str__(self):
+        return f"Shopping List for User {self.user_id}"

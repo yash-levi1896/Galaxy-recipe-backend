@@ -1,5 +1,5 @@
 from django.contrib.auth.models import User
-from .models import Recipe , Rating
+from .models import Recipe , Rating , Shopping
 from rest_framework import serializers
 
 class UserSerializer(serializers.ModelSerializer):
@@ -22,4 +22,9 @@ class RecipeSerializer(serializers.ModelSerializer):
 class RatingSerializer(serializers.ModelSerializer):
     class Meta:
         model=Rating
+        fields='__all__'
+
+class ShoppingSerializer(serializers.ModelSerializer):
+    class Meta:
+        model=Shopping
         fields='__all__'

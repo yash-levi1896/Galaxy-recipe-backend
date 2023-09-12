@@ -14,6 +14,7 @@ urlpatterns = [
     path('api/del-favorite/<int:recipeid>/', views.delete_favorite, name='del-favorite'),
     path('api/add-shoping/<int:recipeID>/', views.add_shoping, name='add-shoping'),
     path('api/get-shoping/', views.get_shoping, name='get-shoping'),
+    path('api/update-shoping/<int:item_id>/<str:nameIng>', views.update_ingredient_status, name='update-shoping'),
     path('api/del-shoping/<int:ingredientID>/', views.delete_ingredient, name='del-ingredient'),
     path('api/rating/<int:recipeID>/', views.add_Rating, name='rating'),
     path('api/get-rating/<int:recipeID>/', views.get_ratings, name='get-rating'),

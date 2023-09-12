@@ -5,9 +5,9 @@ from rest_framework.decorators import api_view, permission_classes
 from rest_framework.permissions import AllowAny
 from django.contrib.auth import authenticate, login
 from rest_framework.authtoken.models import Token
-from .serializers import UserSerializer , RecipeSerializer,RatingSerializer
+from .serializers import UserSerializer , RecipeSerializer,RatingSerializer,ShoppingSerializer
 from django.views.decorators.csrf import csrf_exempt
-from .models import UserProfile , Recipe , Rating
+from .models import UserProfile , Recipe , Rating , Shopping
 import json , os , openai
 from django.http import JsonResponse 
 from .middlware import token_auth_required
@@ -216,71 +216,99 @@ def delete_favorite(request, recipeid):
 @token_auth_required
 
 def add_shoping(request,recipeID):
-    if request.method == 'POST':
-        if request.user is None:
-            return JsonResponse({'msg': "Please Login !"})
-        else:
-            # Use .first() to retrieve a single instance from the QuerySet
-            user = UserProfile.objects.filter(user_id=request.user.id).first()
+      if request.method == 'POST':
+        user_id = request.user.id
 
-            if user:
-                # print(user.user_id)
-                if recipeID in user.shoping_list:
-                    return JsonResponse({'msg':'Already added to Shoping List'})
-                user.shoping_list.append(recipeID)
-                user.save()
+        # Check if the user exists
+        if not user_id:
+            return JsonResponse({'msg': 'User not found'})
 
-                return JsonResponse({'msg': 'Ingredients added to Shoping List'})
-            else:
-                return JsonResponse({'msg': 'User not found'})
+        # Try to retrieve the Shopping item
+        try:
+            shopping_item = Shopping.objects.get(user_id=user_id, recipe_id=recipeID)
+            
+            # Return a response indicating that the ingredients are already in the shopping list
+            return JsonResponse({'msg': 'Ingredients are already added to the Shopping List'})
+
+        except Shopping.DoesNotExist:
+            try:
+                # Retrieve the recipe by ID
+                recipe = Recipe.objects.get(id=recipeID)
+
+                # Create a list of ingredients as dictionaries
+                ingredients = [{'name': ingredient, 'checked': False} for ingredient in recipe.ingredients]
+
+                # Create a Shopping instance and save it
+                shopping_item = Shopping(user_id=user_id, recipe_id=recipeID, shopping_list=ingredients)
+                shopping_item.save()
+
+                return JsonResponse({'msg': 'Ingredients added to Shopping List'})
+
+            except Recipe.DoesNotExist:
+                return JsonResponse({'msg': 'Recipe not found'})
+
+
             
 
 @csrf_exempt
 @token_auth_required
 def get_shoping(request):
-    user = UserProfile.objects.filter(user_id=request.user.id).first()
-    shoping=[]
-    if user:
-        for recipe_id in user.shoping_list:
-            try:
-            # Retrieve the recipe by ID
-               recipe = Recipe.objects.get(id=recipe_id)  # Replace with your query
+   
+   user = request.user
+
+   if user:
+        shopping_items = Shopping.objects.filter(user=user)
+
+        try:
+            # Serialize the shopping items using the serializer
+            shopping_data = ShoppingSerializer(shopping_items, many=True).data
+
+            return JsonResponse({'msg': shopping_data})
+
+        except Shopping.DoesNotExist:
+            # Handle the case where no shopping items are found for the user
+            return JsonResponse({'msg': 'No shopping items found for the user'})
+
+   return JsonResponse({'msg': 'User not found'}, status=404)
+
+@csrf_exempt  
+@token_auth_required
+def update_ingredient_status(request,item_id,nameIng):
+   try:
+        # Retrieve the shopping item by ID
+        item = Shopping.objects.get(id=item_id)
         
-            # Serialize the recipe using the serializer
-               recipe_data = RecipeSerializer(recipe).data
-        
-            # Append the serialized recipe to the list
-               shoping.append({"ingredients":recipe_data['ingredients']})
+        if request.method == "PATCH":
+            # Toggle the checked status of the ingredient
+            for ingredient in item.shopping_list:
+                if ingredient["name"] == nameIng:
+                    ingredient["checked"] = not ingredient["checked"]
+            
+            item.save()
+            
+            # Return a success response
+            return JsonResponse({"message": "Ingredient status updated successfully"})
 
-            except Recipe.DoesNotExist:
-            # Handle the case where a recipe with a given ID does not exist
-             continue
+        # Handle unsupported HTTP methods
+        return JsonResponse({"message": "Unsupported HTTP method"}, status=405)
 
-        return JsonResponse({'msg':shoping})
-    
-    return JsonResponse({'msg': 'User not found'}, status=404)
-
+   except Shopping.DoesNotExist:
+        return JsonResponse({"message": "Shopping item not found"}, status=404)
     
 @csrf_exempt
 @token_auth_required
 def delete_ingredient(request,ingredientID):
-    if request.method == 'DELETE':
-        user = UserProfile.objects.filter(user_id=request.user.id).first()
+    try:
+        ingredient_to_delete = Shopping.objects.get(id=ingredientID)
+    except Shopping.DoesNotExist:
+        # Handle the case where the document doesn't exist
+        return JsonResponse({'msg':"ingredients not found"}, status=404)
 
-        if user:
-            # Create a new list without the specified recipeid
-            updated_shoping = [id for id in user.shoping_list if id != ingredientID]
-            
-            # Update the user's recipeCollections with the new list
-            user.shoping_list = updated_shoping
-            user.save()
+    if ingredient_to_delete:
+        ingredient_to_delete.delete()
+        return JsonResponse({'msg':"ingredients deleted successfully"})
 
-            return JsonResponse({'msg': 'Ingredients deleted'})
-        else:
-            return JsonResponse({'msg': 'User not found'})
-    else:
-        return JsonResponse({'msg': 'Invalid request method'})
-    
+    return JsonResponse({'msg':"ingredients not found"}, status=404)   
 
 
 @csrf_exempt
